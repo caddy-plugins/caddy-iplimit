@@ -4,7 +4,7 @@ import (
 	"github.com/caddyserver/caddy/caddy/caddymain"
 	"github.com/caddyserver/caddy/caddyhttp/httpserver"
 
-	_ "caddy/iplimit"
+	_ "github.com/caddy-plugins/caddy-iplimit/iplimit"
 )
 
 func main() {
